@@ -91,7 +91,7 @@ video {
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
+    font-size: 50%;
     font: inherit;
     vertical-align: baseline;
 }
@@ -173,13 +173,16 @@ html {
     box-sizing: inherit;
 }
 
+
+/* All about the text */
+
 body {
     background: #fff;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 19pt;
-    font-weight: 300;
-    line-height: 1.75em;
-    color: #888;
+    font-size: 15pt;
+    font-weight: 100;
+    line-height: 1em;
+    color: #fff;
 }
 
 body.is-preload *,
@@ -212,7 +215,8 @@ h4,
 h5,
 h6 {
     font-weight: 300;
-    color: #666;
+    /* Color change */
+    color: #fff;
     line-height: 1.5em;
 }
 
@@ -244,6 +248,10 @@ h2.alt {
     color: #888;
 }
 
+h2.test {
+    color: #a8a7a7;
+}
+
 h2.alt strong {
     color: #666;
 }
@@ -266,7 +274,7 @@ footer {
 
 strong,
 b {
-    font-weight: 300;
+    font-weight: 400;
     color: #666;
 }
 
@@ -1774,7 +1782,7 @@ button,
     color: #fff !important;
     text-decoration: none;
     padding: 0.75em 2.5em 0.75em 2.5em;
-    background-color: #8ebebc;
+    background-color: #cf1515;
     border: 0;
     cursor: pointer;
     background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
@@ -1792,7 +1800,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 button:hover,
 .button:hover {
-    background-color: #9ececc;
+    background-color: #cf1515;
 }
 
 input[type="button"]:active,
@@ -1800,7 +1808,7 @@ input[type="submit"]:active,
 input[type="reset"]:active,
 button:active,
 .button:active {
-    background-color: #7eaeac;
+    background-color: #cf1515;
 }
 
 
@@ -1811,8 +1819,18 @@ button:active,
     margin-bottom: 40px;
 }
 
+
+/* header */
+
 .item header {
-    background: #fff;
+    background: #a8a7a7;
+    margin: 0;
+    padding: 1em 0 1em 0;
+    font-size: 1em;
+}
+
+.item p {
+    background: #a8a7a7;
     margin: 0;
     padding: 1em 0 1em 0;
     font-size: 0.8em;
@@ -1875,7 +1893,8 @@ button:active,
     -webkit-justify-content: space-between;
     -ms-justify-content: space-between;
     justify-content: space-between;
-    background: #222629 url("images/overlay.png");
+    /* Color change */
+    background: #cf1515 url("images/overlay.png");
     box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
     color: #fff;
     height: 100%;
@@ -1912,7 +1931,8 @@ button:active,
 }
 
 #header .icons a {
-    color: #41484c;
+    /* Color change */
+    color: #ffffff;
     -moz-transition: color 0.35s ease-in-out;
     -webkit-transition: color 0.35s ease-in-out;
     -ms-transition: color 0.35s ease-in-out;
@@ -1942,7 +1962,8 @@ button:active,
     position: relative;
     display: block;
     font-size: 0.6em;
-    color: rgba(255, 255, 255, 0.5);
+    /* Color change */
+    color: #ffffff;
     line-height: 1.25em;
     margin: 0.5em 0 0 0;
 }
@@ -1966,7 +1987,7 @@ button:active,
 #nav ul li a {
     display: block;
     padding: 0.5em 1.5em 0.5em 1.5em;
-    color: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
     text-decoration: none;
     outline: 0;
     border: 0;
@@ -1998,7 +2019,7 @@ button:active,
 }
 
 #nav ul li a.active span:before {
-    color: #e27689;
+    color: #ffffff;
 }
 
 
@@ -2043,7 +2064,7 @@ button:active,
     margin: 0;
     overflow: hidden;
     padding: 4em 0;
-    box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
+    box-shadow: inset 0 1px 0 0 #fff, inset 0 0.1em 0.1em 0 #fff;
     text-align: center;
     background-image: url("images/overlay.png");
 }
@@ -2087,15 +2108,21 @@ button:active,
 }
 
 #main>section.two {
-    background-color: #f5fafa;
+    background-color: #fff;
 }
+
+
+/* Color change */
 
 #main>section.three {
-    background-color: #ecf1f1;
+    background-color: #a8a7a7;
 }
 
+
+/* Color change */
+
 #main>section.four {
-    background-color: #e8edec;
+    background-color: #a8a7a7;
 }
 
 
@@ -2247,7 +2274,7 @@ button:active,
         width: 275px;
         z-index: 10002;
         width: 275px;
-        background: #222729 url("images/overlay.png");
+        background: #cf1515 url("images/overlay.png");
         box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
     }
     #header .top {
